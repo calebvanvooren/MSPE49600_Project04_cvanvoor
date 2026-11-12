@@ -1,5 +1,7 @@
 # MSPE49600 Project 04
 
+Repository for MSPE49600 Project 04
+
 ## Overview
 
 This project uses ANSYS Fluent and Gaussian Process Regression to evaluate the aerodynamic performance of a NACA 0015 airfoil over a range of wing angles. CFD simulations were automated through ANSYS Workbench and Python. The resulting drag and lift forces were used to train Gaussian Process models, evaluate prediction accuracy, and recommend a wing angle for future simulations.
