@@ -4,7 +4,7 @@ Repository for MSPE49600 Project 04
 
 ## Overview
 
-This project uses ANSYS Fluent and Gaussian Process Regression to evaluate the aerodynamic performance of a NACA 0015 airfoil over a range of wing angles. CFD simulations were automated through ANSYS Workbench and Python. The resulting drag and lift forces were used to train Gaussian Process models, evaluate prediction accuracy, and recommend a wing angle for future simulations.
+This project uses ANSYS Fluent and Gaussian Process Regression to evaluate the aerodynamic performance of a NACA 0015 airfoil over a range of wing angles. CFD simulations were automated through ANSYS Workbench and Python. The resulting drag and lift forces were used to train Gaussian Process models, evaluate prediction accuracy, and recommend a wing angle for future simulations. The objective was to identify wing angles that provide favorable aerodynamic efficiency measured using the drag-to-downforce ratio.
 
 ## Files Included
 
@@ -39,4 +39,6 @@ The notebook and scripts use:
 
 ## Engineering Recommendation
 
-The Gaussian Process models identified an angle of approximately 4.815° as having the lowest predicted drag-to-downforce ratio. A follow-up CFD simulation near 2° is recommended because the predictive variance is highest in that region, indicating greater model uncertainty. Additional CFD data near 2° would improve model confidence and help validate the surrogate model predictions.
+The Gaussian Process models identified an angle of approximately 4.815° as having the lowest predicted drag-to-downforce ratio. A follow-up CFD simulation near 2° is recommended because the predictive variance is highest in that region, indicating greater model uncertainty. Additional CFD data near 2° would improve model confidence and help validate the surrogate model predictions. 
+
+- This repository contains the final notebook, CFD dataset, and automation script used for Project 04.
